@@ -2,7 +2,10 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 import os
 
-BOT_TOKEN = os.getenv("8839936832:AAGd_PNp7dH3klyVfR_WAUubUQwjeVOvji4")
+# Токен прямо в коде (для теста)
+BOT_TOKEN = "8839936832:AAGd_PNp7dH3klyVfR_WAUubUQwjeVOvji4"
+
+# Ссылка на твой канал
 MY_CHANNEL_LINK = "https://t.me/tgpassport_ru"
 
 queue = []
